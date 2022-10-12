@@ -1,0 +1,52 @@
+.footer-container{
+    position: relative;
+}
+.footer-container>hr{
+    border: 1px solid var(--lightgray);
+}
+.footer-container> .footer{
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+   
+}
+.socia-media-logo{
+    
+    display: flex;
+    gap: 4rem;
+
+   
+
+}
+.socia-media-logo>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.logo>img{
+    width: 10rem;
+}
+@media screen and (max-width:768px) {
+    .footer-container> .footer{
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        height: 10rem;
+       
+       
+    }
+    .socia-media-logo>img{
+        width: 1rem;
+        height: 1rem;
+        cursor: pointer;
+    }
+    .logo>img{
+        width: 6rem;
+       
+    }
+}

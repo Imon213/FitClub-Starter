@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    
+   
+}
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+.header-menue{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+   
+    
+}
+.header-menue>li>a{
+    text-decoration: none;
+    color: white;
+}
+.header-menue>li{
+    cursor: pointer;
+}
+.header-menue>li>a:hover{
+    color: var(--orange);
+    cursor: pointer;
+}
+@media screen and (max-width:768px) {
+    .logo{
+        width: 4rem;
+        height: 2rem;
+    }
+    .header-menue{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+        color: white;
+        font-size: 8px;
+        justify-content: center;
+        align-items: center;
+    }.header-menue>li{
+        cursor: pointer;
+    }
+}

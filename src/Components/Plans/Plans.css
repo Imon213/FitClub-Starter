@@ -1,0 +1,107 @@
+.plans-container{
+    margin-top: -4rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+}.plans-container>.programs-header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+   text-transform: uppercase;
+   color: white;
+   font-weight: bold;
+   font-style: italic;
+}
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    background: var(--caloryCard);
+    width: 15rem;
+    padding: 1.5rem;
+    gap: 2rem;
+    color: white;
+}
+.plans>:nth-child(2){
+    background: var(--planCard);
+    transform: scale(1.1);
+}
+.plan>:nth-child(1){
+    width: 2rem;
+    height: 2rem;
+    fill: var(--orange);
+}
+.plan>:nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+}
+.plan>:nth-child(3){
+    font-size: 3rem;
+    font-weight: bold;
+}
+.plan>:nth-child(5){
+    font-size: 0.8rem;
+   
+}
+.feature{
+    display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+.feature>img{
+    width: 1rem;
+}
+.see-more>span{
+    fill: white;
+}
+.plans>:nth-child(2)>.btn{
+    color: orange;
+}
+.plans-blur-1{
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0rem;
+}
+.plans-blur-2{
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 0rem;
+}
+.blur-f-1{
+    width: 26rem;
+    height: 12rem;
+    bottom: 0rem;
+    right: 18%;
+    background: rgb(219, 109, 109);
+    filter: blur(200px);
+}
+.blur-f-2{
+    width: 26rem;
+    height: 12rem;
+    bottom: 0rem;
+    left: 18%;
+
+}
+@media screen and (max-width:768px) {
+   .programs-header{
+    flex-direction: column;
+   margin-top: 2rem;
+   } 
+   .programs-header>span{
+    font-size: x-large;
+   }
+   .plans{
+    flex-direction: column;
+    transform: none;
+   }
+}

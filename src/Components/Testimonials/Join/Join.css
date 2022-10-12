@@ -1,0 +1,92 @@
+.join{
+    display: flex;
+    position: relative;
+    padding: 0 2rem;
+   gap: 11rem;
+}
+.left-j{
+   
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+.left-j>div{
+    display: flex;
+    gap: 1rem;
+}
+.left-j>hr{
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
+}
+.right-j{
+    position: relative;
+}
+
+.email-form{
+    top: 3.6rem;
+    position: absolute;
+    display: flex;
+    background-color: gray;
+    gap: 3rem;
+    width: 360px;
+    padding: 0.5rem 0.2rem;
+   
+} 
+.email-form>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgray);
+}
+.join-btn{
+    background-color: var(--orange);
+}
+@media screen and (max-width:768px) {
+    .join {
+        margin-top: -3rem;
+        display: flex;
+        position: relative;
+        padding: 0 2rem;
+        gap: 1rem;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        right: 0;
+      }
+     .left-j>hr{
+        position: relative;
+        width: 10.5rem;
+        border: 2px solid var(--orange);
+        border-radius: 20%;
+      }
+
+.left-j{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-j>div>span{
+    font-size: x-large;
+} 
+.left-j>div{
+    margin-top: 2rem;
+}
+.email-form{
+    top: 2rem;
+    position: relative;
+    display: flex;
+    background-color: gray;
+    gap: 3rem;
+    width: 350px;
+    padding: 0.5rem 0.2rem;
+   
+} 
+
+} 
